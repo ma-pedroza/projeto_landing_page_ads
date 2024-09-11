@@ -57,3 +57,28 @@ body{
     flex-direction: column;
 }
 
+#conteudo_2 {
+    font-family: "Poppins";
+    color: #1E1B4B;
+    display: grid;
+    justify-content: space-around;
+
+}
+
+
+
+#conteudo_2_caixas div {
+    border: solid black;
+    height: 400px;
+    width: 300px;
+    margin: 30px ;
+    border-radius: 20px;
+}
+#conteudo_2_caixas {
+    display: flex;
+    border: solid black;
+    width: 1200px;
+    height: 470px;
+    justify-content: space-between;
+    
+}
