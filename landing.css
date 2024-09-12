@@ -72,13 +72,63 @@ body{
     height: 400px;
     width: 300px;
     margin: 30px ;
-    border-radius: 20px;
+    border-radius: 25px;
 }
 #conteudo_2_caixas {
     display: flex;
-    border: solid black;
     width: 1200px;
     height: 470px;
     justify-content: space-between;
-    
+}
+
+#basic ul {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 12px;
+    padding-top: 10px;
+}
+#basic h1 {
+    height: 40px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+#basic p {
+    margin-left: 20px;
+}
+#basic button {
+    margin-left: 20px;
+    border-radius: 8px;
+    background-color: #594fdb;
+    color: white;
+    width: 260px;
+    height: 40px;
+}
+
+#basic li {
+    margin-left: 20px;
+}
+
+#pequenos_negocios {
+    font-size: 12px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+#de {
+    font-size: 15px;
+    padding-left: 2px;
+    padding-bottom: 2px;
+    margin: 4px;
+}
+
+#por {
+    margin-top: 20px;
+    margin-bottom: 2px;
+    font-size: 15px;
+}
+
+#de_por {
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
 }
