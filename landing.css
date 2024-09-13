@@ -11,9 +11,12 @@ body{
     align-items: center;
     padding: 12px;
     background-color: rgb(232, 232, 255);
-    color: #464b1b;
+    color: #1E1B4B;
     border-radius: 15px;
-    width: 50%;
+}
+img{
+    max-width: 100%;
+    height: auto;
 }
 
 .nome-empresa{
@@ -69,7 +72,7 @@ body{
 
 
 #conteudo_2_caixas div {
-    border: solid black;
+    border: 1px solid #4F46E5;;
     height: 400px;
     width: 300px;
     margin: 30px ;
@@ -82,7 +85,7 @@ body{
     justify-content: space-between;
 }
 
-#basic ul {
+#basic ul, #premium ul {
     padding-left: 20px;
     padding-right: 20px;
     font-size: 12px;
@@ -92,40 +95,74 @@ body{
     height: 40px;
     margin-left: 20px;
     margin-bottom: 0px;
+    color: #4F46E5;
 }
-#basic p {
+#premium h1 {
+    height: 40px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    color: #3730A3;
+    
+}
+
+#basic p, #premium p {
     margin-left: 20px;
 }
-#basic button {
+#basic button{
     margin-left: 20px;
     border-radius: 8px;
-    background-color: #594fdb;
+    background-color: #4F46E5;
+    border-color: #4F46E5;
+    border: solid #4F46E5;
     color: white;
     width: 260px;
     height: 40px;
 }
+#premium button{
+    margin-left: 20px;
+    border-radius: 8px;
+    background-color: #3730A3;
+    border-color: #3730A3;
+    border: solid #3730A3;
+    color: white;
+    width: 260px;
+    height: 40px;
 
-#basic li {
+}
+
+#basic li, #premium li {
     margin-left: 20px;
 }
 
-#pequenos_negocios {
+#pequenos_negocios, #medio_porte {
     font-size: 12px;
     margin-top: 2px;
     margin-bottom: 2px;
 }
+
+
 
 #de {
     font-size: 15px;
     padding-left: 2px;
     padding-bottom: 2px;
     margin: 4px;
+    color: #6B7280;
 }
 
-#por {
+#por1 {
     margin-top: 20px;
     margin-bottom: 2px;
     font-size: 15px;
+    color: #4F46E5;
+    
+}
+#por2 {
+    margin-top: 20px;
+    margin-bottom: 2px;
+    font-size: 15px;
+    color: #3730A3;
+    
 }
 
 #de_por {
@@ -133,3 +170,19 @@ body{
     margin-left: 20px;
     margin-right: 20px;
 }
+
+.listas{
+    list-style-type: none;
+    margin-left:0%;
+    
+    
+}
+
+.listas li::before{
+    content: "✓"; 
+    color: #4338CA;
+    font-size: 15px;
+    
+    
+}
+
