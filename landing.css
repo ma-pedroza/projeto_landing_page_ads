@@ -11,8 +11,9 @@ body{
     align-items: center;
     padding: 12px;
     background-color: rgb(232, 232, 255);
-    color: #1E1B4B;
+    color: #464b1b;
     border-radius: 15px;
+    width: 50%;
 }
 
 .nome-empresa{
