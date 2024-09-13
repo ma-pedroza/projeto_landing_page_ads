@@ -132,20 +132,22 @@ img{
 
 #basic li, #premium li {
     margin-left: 20px;
+    margin-top: 5px;
 }
 
 #pequenos_negocios, #medio_porte {
     font-size: 12px;
     margin-top: 2px;
     margin-bottom: 2px;
+    margin-left: 20px;
 }
 
 
 
 #de {
     font-size: 15px;
-    padding-left: 2px;
-    padding-bottom: 2px;
+    padding-left: 16px;
+    padding-bottom: 4px;
     margin: 4px;
     color: #6B7280;
 }
