@@ -130,7 +130,7 @@ img{
 #basic p, #premium p, #business p {
     margin-left: 20px;
 }
-#basic button, #business button{
+#basic button{
     margin-left: 10%;
     margin-bottom: 0px;
     border-radius: 8px;
@@ -151,8 +151,19 @@ img{
     color: white;
     width: 80%;
     height: 10%;
-
 }
+#business button{
+    margin-left: 10%;
+    margin-bottom: 0px;
+    border-radius: 8px;
+    background-color: #1E1B4B;
+    border-color: #1E1B4B;
+    border: solid #1E1B4B;
+    color: white;
+    width: 80%;
+    height: 10%;
+}
+
 
 #basic li, #premium li, #business li {
     margin: 0px;
@@ -196,7 +207,7 @@ img{
     margin-top: 20px;
     margin-bottom: 2px;
     font-size: 15px;
-    color: #3730A3;
+    color: #1E1B4B;
 }
 
 #de_por {
