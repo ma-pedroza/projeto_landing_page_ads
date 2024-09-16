@@ -90,7 +90,7 @@ img{
 }
 
 
-#basic ul, #premium ul {
+#basic ul, #premium ul, #business ul {
     padding-left: 5px;
     padding-right: 5px;
     font-size: 10px;
@@ -109,17 +109,28 @@ img{
     color: #4F46E5;
 }
 #premium h1 {
-    height: 40px;
-    margin-left: 20px;
+    width: 70%;
+    height: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
     margin-bottom: 0px;
-    color: #3730A3;
-    
+    margin-top: 5px;
+    color: #3730A3;   
+}
+#business h1 {
+    width: 70%;
+    height: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    color: #3730A3; 
 }
 
-#basic p, #premium p {
+#basic p, #premium p, #business p {
     margin-left: 20px;
 }
-#basic button{
+#basic button, #business button{
     margin-left: 10%;
     margin-bottom: 0px;
     border-radius: 8px;
@@ -143,14 +154,14 @@ img{
 
 }
 
-#basic li, #premium li {
+#basic li, #premium li, #business li {
     margin: 0px;
     font-size: 10px;
     margin-top: 0px;
 }
 
 
-#pequenos_negocios, #medio_porte {
+#pequenos_negocios, #medio_porte, #grandes_empresas{
     font-size: 12px;
     margin-top: 0px;
     margin-bottom: 2px;
@@ -180,6 +191,12 @@ img{
     font-size: 15px;
     color: #3730A3;
     
+}
+#por3{
+    margin-top: 20px;
+    margin-bottom: 2px;
+    font-size: 15px;
+    color: #3730A3;
 }
 
 #de_por {
