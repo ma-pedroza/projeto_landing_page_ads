@@ -65,36 +65,47 @@ img{
     font-family: "Poppins";
     color: #1E1B4B;
     display: grid;
-    justify-content: space-around;
+    width: 100%;
+    height: 70%;
 
 }
 
 
 
 #conteudo_2_caixas div {
-    border: 1px solid #4F46E5;;
-    height: 400px;
-    width: 300px;
-    margin: 30px ;
+    border: 1px solid #4F46E5;
+    height: 100%;
+    width: 30%;
     border-radius: 25px;
+    font-size: 10px;
 }
 #conteudo_2_caixas {
     display: flex;
-    width: 1200px;
-    height: 470px;
+    width: 80%;
+    height: 100%;
     justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    
 }
 
+
 #basic ul, #premium ul {
-    padding-left: 20px;
-    padding-right: 20px;
-    font-size: 12px;
-    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 10px;
+    padding-top: 0px;
 }
+
+
+
 #basic h1 {
-    height: 40px;
-    margin-left: 20px;
+    width: 70%;
+    height: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
     margin-bottom: 0px;
+    margin-top: 5px;
     color: #4F46E5;
 }
 #premium h1 {
@@ -109,35 +120,39 @@ img{
     margin-left: 20px;
 }
 #basic button{
-    margin-left: 20px;
+    margin-left: 10%;
+    margin-bottom: 0px;
     border-radius: 8px;
     background-color: #4F46E5;
     border-color: #4F46E5;
     border: solid #4F46E5;
     color: white;
-    width: 260px;
-    height: 40px;
+    width: 80%;
+    height: 10%;
 }
 #premium button{
-    margin-left: 20px;
+    margin-left: 10%;
+    margin-bottom: 0px;
     border-radius: 8px;
-    background-color: #3730A3;
-    border-color: #3730A3;
-    border: solid #3730A3;
+    background-color: #4F46E5;
+    border-color: #4F46E5;
+    border: solid #4F46E5;
     color: white;
-    width: 260px;
-    height: 40px;
+    width: 80%;
+    height: 10%;
 
 }
 
 #basic li, #premium li {
-    margin-left: 20px;
-    margin-top: 5px;
+    margin: 0px;
+    font-size: 10px;
+    margin-top: 0px;
 }
+
 
 #pequenos_negocios, #medio_porte {
     font-size: 12px;
-    margin-top: 2px;
+    margin-top: 0px;
     margin-bottom: 2px;
     margin-left: 20px;
 }
@@ -145,17 +160,17 @@ img{
 
 
 #de {
-    font-size: 15px;
-    padding-left: 16px;
+    font-size: 10px;
+    height: 17px;
+    width: 60px;
     padding-bottom: 4px;
-    margin: 4px;
     color: #6B7280;
 }
 
 #por1 {
-    margin-top: 20px;
+    margin-top: 2px;
     margin-bottom: 2px;
-    font-size: 15px;
+    font-size: 10px;
     color: #4F46E5;
     
 }
@@ -171,6 +186,7 @@ img{
     justify-content: space-between;
     margin-left: 20px;
     margin-right: 20px;
+    width: 80%;
 }
 
 .listas{
